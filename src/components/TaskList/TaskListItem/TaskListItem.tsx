@@ -1,12 +1,18 @@
 import styles from "./TaskListItem.module.css";
 
-function TaskListItem() {
+
+type Props = {
+  title: String;
+  text: String;
+}
+
+function TaskListItem({title, text}: Props) {
   return (
     <>
       <div className={[styles.itemContainer].join(" ")}>
         <button className={styles.TaskButton}>
-          <h1 className={[styles.itemHeader].join(" ")}>Header</h1>
-          <p>Catлоолоtt</p>
+          <h1 className={[styles.itemHeader].join(" ")}>{title}</h1>
+          <p>{text}</p>
         </button>
       </div>
     </>
