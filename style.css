@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: "Inria Serif", serif;
+    overflow: hidden;
+    line-height: 1.4;
+}
+
+html, body {
+    height: 100%;
+}

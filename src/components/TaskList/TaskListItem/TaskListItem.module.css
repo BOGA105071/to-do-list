@@ -1,0 +1,37 @@
+.itemHeader {
+    color: black;
+}
+
+.itemContainer {
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 250px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TaskButton p {
+    background-color: #23B1BB;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 7px;
+}
+
+.TaskButton {
+    background-color: white;
+    border: none;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    font: inherit;
+}
