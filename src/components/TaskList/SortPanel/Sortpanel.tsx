@@ -32,8 +32,8 @@ function Sortpanel() {
     <div>
       <div className={[styles.SortBox, styles.SortContainer,].join(" ")}>
         <button onClick={() => setOpen(!open)}>sort by... <br></br>{labels[sort]}</button>
-        {open && (
-          <div className={styles.DropDown}>
+        
+          <div className={[styles.DropDown, open ? styles.Open : ""].join(" ")}>
               {options.map((option)=> (
                 <button
                 key={option}
@@ -47,7 +47,7 @@ function Sortpanel() {
                 </button>
               ))}
           </div>
-        )}
+        
       </div>
       <div className={[styles.TaskBox, styles.SortContainer].join(" ")}>
         <div className={[styles.TasksLeft].join(" ")}>
