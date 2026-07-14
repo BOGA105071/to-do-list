@@ -2,6 +2,10 @@
 
 .itemHeader {
     color: black;
+    font-size: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .itemContainer {
@@ -18,26 +22,20 @@
     align-items: center;
 }
 
-.TaskButton h1 {
-    font-size: 25px;
-}
-
 .TaskButton p {
     background-color: #23B1BB;
     color: white;
-    padding: 5px;
     border-radius: 10px;
-    margin-left: 10px;
     padding: 7px;
     font-size: 15px;
 }
 
 .TaskButton {
+    width: 100%;
     background-color: white;
     border: none;
     display: flex;
-    padding: 10px;
-    align-items: center;
     justify-content: space-between;
+    padding: 10px;
     font: inherit;
 }

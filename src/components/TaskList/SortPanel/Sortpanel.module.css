@@ -86,7 +86,8 @@
     align-items: center;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    height: 567px;
+    height: 700px;
+    padding-bottom: 10px;   
     overflow: hidden;
     overflow-y: scroll;
 }

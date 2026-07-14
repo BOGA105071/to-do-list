@@ -1,13 +1,13 @@
-import Sortpanel from "./components/TaskList/SortPanel/Sortpanel.js"
-import TaskListItem from "./components/TaskList/TaskListItem/TaskListItem.js"
+import Sortpanel from "./components/TaskList/SortPanel/Sortpanel";
+import TaskListItem from "./components/TaskList/TaskListItem/TaskListItem";
+import TaskDetails from "./components/TaskDetails/TaskDetails";
 
 function App() {
-  
-  return(
-  
-  <Sortpanel />
-
-  )
-
+  return (
+    <>
+      <Sortpanel />
+      <TaskDetails />
+    </>
+  );
 }
-export default App
+export default App;

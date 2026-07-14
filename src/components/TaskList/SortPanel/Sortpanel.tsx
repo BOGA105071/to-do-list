@@ -1,4 +1,4 @@
-import TaskListItem from "../TaskListItem/TaskListItem.js";
+import TaskListItem from "../TaskListItem/TaskListItem";
 import styles from "./Sortpanel.module.css";
 import { useState } from "react";
 
@@ -13,14 +13,15 @@ function Sortpanel() {
   const [open, setOpen] = useState(false);
   const [sort, setSort] = useState<SortType>("all");
   const [tasks, setTasks] = useState([
-    {id: 1, title: "Header 1", text: "Catлоолоtt", done: false},
+    {id: 1, title: "aeader 1", text: "Catлоолоtt", done: false},
     {id: 2, title: "Header 2", text: "Catлоолоtt", done: false},
-    {id: 3, title: "Header 3", text: "Catлоолоtt", done: false},
-    {id: 3, title: "Header 3", text: "Catлоолоtt", done: false},
-    {id: 3, title: "Header 3", text: "Catлоолоtt", done: false},
-    {id: 3, title: "Header 3", text: "Catлоолоtt", done: false},
-    {id: 3, title: "Header 3", text: "Catлоолоtt", done: false},
-    {id: 3, title: "Header 3", text: "Catлоолоtt", done: false},
+    {id: 4, title: "beader 4", text: "Catлоолоtt", done: false},
+    {id: 5, title: "bader 5", text: "Catлоолоtt", done: false},
+    {id: 6, title: "Header 6", text: "Catлоолоtt", done: false},
+    {id: 7, title: "ceader 7", text: "Catлоолоtt", done: false},
+    {id: 8, title: "groceriesssssssssssss", text: "Catлоолоtt", done: false},
+    {id: 9, title: "deader 9", text: "Catлоолоtt", done: false},
+    {id: 9, title: "aaaa 10", text: "Catлоолоtt", done: false},
   ])
   const labels: Record<SortType, string> = {
     all: "All",
